@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  display: flex;
+  width: 90%;
+  margin: 40px 40px 0 40px;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 400px;
+  max-width: 700px;
+}

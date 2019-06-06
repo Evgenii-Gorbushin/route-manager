@@ -1,0 +1,81 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 0 50px;
+}
+
+.span-title {
+  margin-bottom: 20px;
+  padding-right: 50px;
+  text-align: center;
+  color: steelblue;
+}
+
+.span-empty {
+  padding-right: 50px;
+  text-align: center;
+  color: #8c8c8c;
+}
+
+.list-item {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 5px 0 5px 5px;
+}
+
+.list-item-button {
+  font-family: Verdana, sans-serif;
+  padding: 5px 10px 7px 10px;
+  text-align: left;
+  border: lightblue solid 1px;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+.list-item-button:focus {
+  border-color: lightsteelblue;
+}
+
+.list-item-button-left {
+  width: 100%;
+  white-space: pre-line;
+}
+
+.list-item-button-right {
+  margin-left: 5px;
+}
+
+.list-item-button-left:hover {
+  cursor: pointer;
+  background-color: lightsteelblue;
+}
+
+.list-item-button-right:hover {
+  cursor: pointer;
+  background-color: coral;
+}
+
+.list-item-button-right:focus {
+  color: orangered;
+}
+
+.list-item-button-right:focus:hover {
+  color: black;
+}
+
+.void-item {
+  margin: 5px;
+}
+
+.void-item-left {
+  float: left;
+  height: 28px;
+  border: lightblue solid 1px;
+}
+
+.void-item-right {
+  float: left;
+  width: 28px;
+  height: 28px;
+  border: lightsteelblue solid 1px;
+}
